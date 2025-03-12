@@ -11,18 +11,18 @@
     <div class="main">
         <div class="uses">
             <div class="title">USOS RESTANTES</div>
-            <div class="usenum">10</div>
+            <div class="usenum" id="usesleft">10</div>
         </div>
         
         <div class="final">
             <div class="title">ÚLTIMO USO PREVISTO</div>
-            <div class="date">17/09/2025</div>
+            <div class="date" id="date">17/09/2025</div>
         </div>
     
         <div class="buttons">
-            <div class="button -1">VIAJE (-1)</div>
-            <div class="button +10">RECARGAR (+10)</div>
-            <div class="button +30">RECARGAR+ (+30)</div>
+            <div class="button -1" onclick="OperateUses(-1)">VIAJE (-1)</div>
+            <div class="button +10" onclick="OperateUses(10)">RECARGAR (+10)</div>
+            <div class="button +30" onclick="OperateUses(30)">RECARGAR+ (+30)</div>
         </div>
     </div>
    

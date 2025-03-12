@@ -1,5 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-.prueba {
-    color: red;
-    background-color: blue;
+
+body{
+    /* background-image: url(https://img.gta5-mods.com/q95/images/fleeca-bank-heist-bigsmokemydog/8c8673-20191224202955_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    overflow: hidden;
+    user-select: none;
+    /* display: none; */
 }
+
+::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 100px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgba(0, 0, 0, 0.247);
+    border-radius: 100px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #0c18269a;
+    border-radius: 10px;
+}
+
+.title {
+    background: linear-gradient(135deg, #955ff1, #3c17d1);
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    letter-spacing: 1px;
+    text-shadow: 0 0 15px white;
+    font-weight: 800;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0 0px 15px#6020ce;
+    text-shadow: 0 0 15px white;
+}
+

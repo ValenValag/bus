@@ -9,6 +9,9 @@ body{
     overflow: hidden;
     user-select: none;
     /* display: none; */
+    background-color: #0c18269a;
+    color: white;
+    font-family: 'Poppins', sans-serif;
 }
 
 ::-webkit-scrollbar {
@@ -26,10 +29,16 @@ body{
     border-radius: 10px;
 }
 
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
 .title {
     background: linear-gradient(135deg, #955ff1, #3c17d1);
     padding: 5px;
-    border-radius: 5px;
+    border-radius: 10px 10px 0 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,7 +48,48 @@ body{
     font-weight: 800;
     color: white;
     font-family: 'Poppins', sans-serif;
-    box-shadow: 0 0px 15px#6020ce;
+    box-shadow: 0 -1px 15px#6020ce;
     text-shadow: 0 0 15px white;
 }
 
+.button {
+    padding: 7px 0 7px 0;
+    font-family: 'Poppins';
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: .5px;
+    border-radius: 5px;
+    outline: none;
+    border: 0;
+    background-color: rgb(228, 228, 228);
+    box-shadow: 0 0 10px rgb(228, 228, 228);
+    transition: .1s;
+    color: black;
+    margin: 5px;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: rgb(199, 199, 199);
+    box-shadow: 0 0 10px rgb(173, 173, 173);
+    transform: scale(1.01);
+    letter-spacing: 1px;
+}
+
+.button:active{
+    background-color: rgb(139, 139, 139);
+    box-shadow: 0 0 10px rgb(99, 99, 99);
+    transform: scale(1);
+    letter-spacing: 0.7px;
+}
+
+.uses, .final {
+    margin: 10px;
+}
+
+.usenum, .date {
+    text-align: center;
+    padding: 10px;
+    background-color: #0c1826bb;
+    border-radius: 0 0 10px 10px;
+}
